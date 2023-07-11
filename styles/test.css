@@ -1,0 +1,103 @@
+/* common shared styles */
+body {
+      font-family: Open Sans;
+}
+
+.btn-primary {
+      border-radius: 5px;
+      background: #FD6E0A;
+      border: 0;
+      font-size: 20px;
+      color: white;
+      padding: 15px 35px;
+}
+
+
+
+
+
+
+
+
+/* header section styles */
+.primary-color {
+      color: #FD6E0A;
+
+}
+
+.header {
+      background: #FFF8F3;
+      background-image: url('../images/header_bg.png');
+      background-repeat: no-repeat;
+      background-position: bottom right;
+}
+
+
+/* nav related styles */
+nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 190px;
+
+}
+
+nav>ul {
+      display: flex;
+      align-items: center;
+}
+
+nav li {
+      list-style: none;
+      margin-right: 50px;
+}
+
+nav a {
+      text-decoration: none;
+}
+
+.nav-title {
+      color: #181818;
+      font-size: 45px;
+      font-weight: 800;
+}
+
+.primary-color {
+      color: #FD6E0A;
+}
+
+/* bannar section */
+.Portfolio-pic {
+      width: 400px;
+}
+
+.bannar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 30px 30px 0px 150px;
+}
+
+.bannar-greeting {
+      color: #474747;
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 0px;
+}
+
+.bannar-title {
+      color: #181818;
+      font-size: 60px;
+      font-weight: 700;
+      margin-top: 0px;
+}
+
+.bannar-description {
+      color:#757575;
+      font-size: 18px;
+      font-weight: 400;
+      margin-top: 0px;
+}
+.bannar-container{
+      max-width: 500px;
+}
